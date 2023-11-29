@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <img src="/images/logo.svg" alt="loopstudios Logo" />
+
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#support">Support</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <img
+          src="/images/logo.svg"
+          alt="loopstudios Logo"
+          class="mobile-logo"
+        />
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <ul>
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li><a href="#careers" onclick="toggleMenu()">Careers</a></li>
+              <li><a href="events" onclick="toggleMenu()">Events</a></li>
+              <li><a href="#products" onclick="toggleMenu()">Products</a></li>
+              <li><a href="support" onclick="toggleMenu()">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>

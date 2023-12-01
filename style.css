@@ -19,10 +19,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-img {
-  max-width: 100%;
-}
-
 header {
   background-image: url(images/desktop/image-hero.jpg);
 
@@ -31,6 +27,7 @@ header {
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 #desktop-nav {
@@ -189,14 +186,61 @@ a:hover {
 }
 
 .header-text h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Josefin Sans", sans-serif;
   letter-spacing: 0.2rem;
   border: 1px solid var(--white);
   font-weight: 300;
   width: 45%;
-  margin-top: 10rem;
+  margin-top: 4rem;
+
   margin-left: 8rem;
   padding: 30px;
   color: var(--white);
+  overflow-x: hidden;
+}
+
+.interactive-section {
+  margin: 8rem;
+  width: 100%;
+}
+
+.interactive-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interactive-image-mobile {
+  display: none;
+}
+
+.interactive-image {
+  flex-basis: 60%;
+}
+
+.interactive-text {
+  border: 1px solid var(--white);
+  padding: 3rem 3rem 0 4rem;
+  flex-basis: 40%;
+  margin-left: -10rem;
+  background-color: var(--white);
+  align-self: flex-end;
+}
+
+.interactive-text h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+
+.interactive-text p {
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Alata", sans-serif;
+  color: var(--very--dark--gray);
 }

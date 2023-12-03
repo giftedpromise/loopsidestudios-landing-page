@@ -350,6 +350,11 @@ footer {
 .social-links-icons li a {
   padding: 0;
   margin-left: 1rem;
+  list-style: none;
+}
+
+.social-links-icons li {
+  list-style: none;
 }
 
 .right-column {

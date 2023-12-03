@@ -347,6 +347,32 @@ footer {
   align-items: center;
 }
 
+.social-links-icons li a {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.right-column {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.left-column {
+  margin-top: 3rem;
+  margin-left: 12rem;
+}
+
+.left-column img {
+  padding-left: 1.5rem;
+}
+
+#footer-nav {
+  margin-top: -1.5rem;
+}
+
 .copyright p {
-  color: var(--white);
+  color: var(--dark--gray);
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 2.5rem;
+  margin-left: 12rem;
 }

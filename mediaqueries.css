@@ -96,4 +96,31 @@
     background-color: var(--white);
     align-self: center;
   }
+
+  .photo-text,
+  .photo-card {
+    display: none;
+  }
+  .column4-mobile {
+    display: block;
+  }
+
+  .photo-text-mobile,
+  .photo-text2-mobile h3 {
+    display: block;
+  }
+
+  .photos-mobile,
+  .photo-text2-mobile {
+    display: block;
+  }
+
+  .photo-text2-mobile h3 {
+    display: block;
+    color: black;
+  }
+
+  .photo-text2-mobile h3 {
+    color: black;
+  }
 }

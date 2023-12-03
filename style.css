@@ -300,6 +300,7 @@ a:hover {
   margin: 0 auto;
   padding-left: 5rem;
   padding-top: 1rem;
+  width: 90%;
 }
 
 .photo-text2 h3 {
@@ -312,10 +313,12 @@ a:hover {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.photos {
-  width: 90%;
-}
-
 .photo-text2 {
   margin-right: 1rem;
+}
+
+.photo-card-mobile,
+.photos-mobile,
+.photo-text-mobile {
+  display: none;
 }

@@ -34,7 +34,7 @@
 
   .interactive-section {
     max-width: 100%;
-    margin: 3rem 0 2rem 0;
+    margin: 3rem 0 1rem 0;
   }
 
   .interactive-text {
@@ -103,24 +103,62 @@
   }
   .column4-mobile {
     display: block;
+    height: 100vh;
   }
 
-  .photo-text-mobile,
+  .photo-text-mobile {
+    text-transform: uppercase;
+    color: var(--dark--gray);
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .photos-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .photo-text2-mobile h3 {
-    display: block;
+    position: absolute;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 300;
+    bottom: 0;
+    padding: 1rem;
+    font-family: "Josefin Sans", sans-serif;
   }
 
-  .photos-mobile,
   .photo-text2-mobile {
-    display: block;
+    margin-bottom: 1rem;
   }
 
-  .photo-text2-mobile h3 {
-    display: block;
-    color: black;
+  .mobile-btn {
+    margin-top: 1rem;
   }
 
-  .photo-text2-mobile h3 {
-    color: black;
+  .mobile-btn button {
+    color: var(--black);
+    width: 140px;
+    height: 40px;
+    border: 1px solid var(--black);
+    font-weight: 400;
+    letter-spacing: 3px;
+    background-color: var(--white);
+    font-family: "Alata", sans-serif;
+    transition: 0.7s;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .mobile-btn button:hover {
+    color: var(--white);
+    border-color: var(--white);
+    background-color: var(--black);
   }
 }

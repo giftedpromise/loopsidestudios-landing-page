@@ -248,6 +248,9 @@ a:hover {
   font-family: "Alata", sans-serif;
   color: var(--very--dark--gray);
 }
+.photo-gallery {
+  margin-bottom: 43rem;
+}
 
 .photo-text {
   display: flex;
@@ -317,8 +320,33 @@ a:hover {
   margin-right: 1rem;
 }
 
-.photo-card-mobile,
-.photos-mobile,
-.photo-text-mobile {
+.column4-mobile {
   display: none;
+}
+
+footer {
+  background-color: var(--black);
+  display: flex;
+  margin-bottom: 0;
+  height: 30vh;
+  justify-content: space-around;
+}
+
+.right-column,
+.left-column {
+  width: 50%;
+}
+.footer-links {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.social-links-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p {
+  color: var(--white);
 }

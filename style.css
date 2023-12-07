@@ -108,11 +108,11 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 100%;
-  right: 0;
 
+  right: 0;
+  height: 30px;
   color: var(--white);
-  background-color: var(--black);
+
   max-height: 0;
   overflow: hidden;
   opacity: 1;
@@ -144,19 +144,17 @@ a:hover {
 .menu-links.open {
   display: flex;
   flex-direction: column;
-  max-height: 600px;
+  max-height: 400px;
   color: var(--verydark--grayblue);
+
   width: 330px;
   padding-top: 2rem;
   padding-bottom: 4rem;
-  position: absolute;
+  position: relative;
   text-align: center;
   margin-top: -4rem;
   margin-left: 0;
   height: 100vh;
-
-  background-image: url(images/logo.svg);
-  background-repeat: no-repeat;
 }
 
 .hamburger-icon.open span:first-child {
